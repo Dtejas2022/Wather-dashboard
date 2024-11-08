@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  input {
+    padding: 8px;
+    margin-right: 5px;
+  }
+  
+  button {
+    padding: 8px;
+    margin-top: 5px;
+    cursor: pointer;
+  }
+  
+  div {
+    margin-bottom: 15px;
+  }
+  
+  h1, h2 {
+    color: #333;
+  }
+  

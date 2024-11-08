@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #ffffff;
+  }
+  
+  /* Weather Dashboard Main Container */
+  .weather-dashboard {
+    width: 95%;
+    max-width: 800px;
+    padding: 20px;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(8px);
+    color: #ffffff;
+    margin: 20px;
+  }
+  
+  /* Headings */
+  h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 15px;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    color: #e3e3e3;
+    margin-bottom: 10px;
+  }
+  
+  /* Search Component */
+  .search-component {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 25px;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    max-width: 500px;
+    padding: 12px;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 30px;
+    outline: none;
+    color: #333;
+    text-align: center;
+  }
+  
+  button {
+    padding: 12px 25px;
+    font-size: 1em;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button.search-btn {
+    background: #2575fc;
+    color: #ffffff;
+  }
+  
+  button.search-btn:hover {
+    background: #1a60d6;
+  }
+  
+  /* Weather Display */
+  .weather-display {
+    background: rgba(255, 255, 255, 0.15);
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    margin-bottom: 25px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .weather-display h1 {
+    font-size: 2em;
+  }
+  
+  .weather-display p {
+    font-size: 1.2em;
+    margin: 10px 0;
+  }
+  
+  .weather-display .forecast {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .forecast-day {
+    flex: 1;
+    margin: 0 8px;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 12px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 0.9em;
+  }
+  
+  .forecast-day p {
+    font-size: 0.9em;
+  }
+  
+  /* Toggle Unit Button */
+  .toggle-unit {
+    background: #34c759;
+    color: #ffffff;
+    margin-top: 10px;
+  }
+  
+  .toggle-unit:hover {
+    background: #28a745;
+  }
+  
+  /* Favorites Component */
+  .favorite-component {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+
+  }
+  
+  .favorite-component ul {
+    list-style-type: none;
+    padding: 0;
+
+  }
+  
+  .favorite-component li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    font-size: 1em;
+
+  }
+  
+  .favorite-component li:last-child {
+    border-bottom: none;
+
+  }
+  
+  .favorite-component li span {
+    color: #2575fc;
+    font-weight: 500;
+    transition: color 0.2s;
+    cursor: pointer;
+  }
+  
+  .favorite-component li span:hover {
+    color: #1a60d6;
+
+  }
+  
+  .favorite-component button {
+    padding: 5px 15px;
+    background-color: #dc3545;
+    color: #ffffff;
+    font-size: 0.9em;
+    border-radius: 15px;
+    border: none;
+    transition: background-color 0.3s;
+
+  }
+  
+  .favorite-component button:hover {
+    background-color: #c82333;
+  }
+
+  /* Introduction Title Styling */
+.intro-title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.intro-title h1 {
+  font-size: 2.5em;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.intro-title p {
+  font-size: 1.2em;
+  color: black;
+}
+
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    .weather-dashboard {
+      padding: 15px;
+    }
+  
+    h1 {
+      font-size: 2em;
+    }
+  
+    .forecast-day {
+      margin: 0 5px;
+    }
+  
+    .search-component, .weather-display, .favorite-component {
+      padding: 10px;
+    }
+  }
+  
