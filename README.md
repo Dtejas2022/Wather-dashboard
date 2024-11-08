@@ -33,7 +33,7 @@ To run this project locally, follow these steps:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/weather-dashboard.git
+   git clone https://github.com/Dtejas2022/Wather-dashboard
    cd weather-dashboard
    
 2. **Install Dependencies: Ensure that Node.js is installed on your system, then run**:
