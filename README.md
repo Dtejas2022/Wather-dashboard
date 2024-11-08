@@ -35,14 +35,16 @@ To run this project locally, follow these steps:
    ```bash
    git clone https://github.com/yourusername/weather-dashboard.git
    cd weather-dashboard
+   bash```
 2. Install Dependencies: Ensure that Node.js is installed on your system, then run:
 ```bash
 npm install
+bash```
 
 3. Set Up JSON Server: Ensure db.json is created for the mock backend. Start the JSON server with:
 ```bash
 npm start
-
+bash```
 ## Usage Instructions
 Search for a City: Enter a city name in the search bar and press the search button to view the current weather and a 5-day forecast.
 Add to Favorites: Click the "Add to Favorites" button to store a city in the favorites list.
