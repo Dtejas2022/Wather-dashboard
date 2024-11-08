@@ -35,30 +35,30 @@ To run this project locally, follow these steps:
    ```bash
    git clone https://github.com/yourusername/weather-dashboard.git
    cd weather-dashboard
-   bash```
-2. Install Dependencies: Ensure that Node.js is installed on your system, then run:
+   
+2. **Install Dependencies: Ensure that Node.js is installed on your system, then run**:
 ```bash
 npm install
-bash```
 
-3. Set Up JSON Server: Ensure db.json is created for the mock backend. Start the JSON server with:
+
+3. **Set Up JSON Server: Ensure db.json is created for the mock backend. Start the JSON server with**:
 ```bash
 npm start
-bash```
-## Usage Instructions
+
+**Usage Instructions**
 Search for a City: Enter a city name in the search bar and press the search button to view the current weather and a 5-day forecast.
 Add to Favorites: Click the "Add to Favorites" button to store a city in the favorites list.
 View Favorites: Access and manage your list of favorite cities in the Favorites section.
 Toggle Temperature Units: Click the "Celsius/Fahrenheit" button to change the temperature display unit.
 Persistent Data: The last searched city will be saved and loaded automatically on your next visit.
 
-## Explanation
+**Explanation**
 components/: Contains reusable components such as SearchComponent, WeatherDisplay, and FavoriteComponent.
 WeatherDashboard.js: Main component that ties together the search, display, and favorite functionalities.
 WeatherDashboard.css: Styles for the entire dashboard.
 db.json: JSON file for simulating a backend for favorite cities.
 
-## API Integration
+**API Integration**
 This app uses the OpenWeatherMap API to fetch weather data. Follow these steps to obtain an API key:
 
 Create an account at OpenWeatherMap.
