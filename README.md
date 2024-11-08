@@ -64,4 +64,4 @@ This app uses the OpenWeatherMap API to fetch weather data. Follow these steps t
 Create an account at OpenWeatherMap.
 Obtain an API key and replace the placeholder in your React app with your key.
 
-const apiKey = 'YOUR_API_KEY_HERE';
+const apiKey = 'e2889676da96fd0c75df0c15b80c915e';
